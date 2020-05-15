@@ -1,9 +1,40 @@
 * {
-    font-family: 'Cinzel', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-    background-color: #120136;
+    background-color: transparent;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/code.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#profilepic {
+    width: 150px;
+    height: 150px;
+    background-color: #120136;
+}
+
+#imgsub {
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
