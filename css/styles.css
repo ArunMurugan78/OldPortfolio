@@ -9,6 +9,10 @@
     transition: background-color 0.5s;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .navbar-theme-2 {
     background-color: #120136 !important;
 }
