@@ -20,12 +20,12 @@ nav {
 #profilepic {
     width: 150px;
     height: 150px;
-    background-color: #120136;
+    background-color: transparent;
 }
 
 #imgsub {
     animation-name: flash;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-delay: 0;
     animation-iteration-count: infinite;
 }
@@ -35,6 +35,24 @@ nav {
         opacity: 0;
     }
     100% {
+        opacity: 1;
+    }
+}
+
+#downarrow {
+    animation-name: fasterflash;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fasterflash {
+    0% {
+        top: 0;
+        opacity: 0;
+    }
+    100% {
+        top: 20px;
         opacity: 1;
     }
 }
