@@ -2,14 +2,27 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-nav {
+.navbar-theme-1 {
     background-color: transparent;
     color: white;
     font-weight: bolder;
+    transition: background-color 0.5s;
+}
+
+.navbar-theme-2 {
+    background-color: #120136 !important;
+}
+
+.link {
+    color: #fcbf1e;
+}
+
+.link:hover {
+    color: white;
 }
 
 .main {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: url('../images/code.jpeg');
     background-repeat: no-repeat;
