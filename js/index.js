@@ -16,6 +16,7 @@ document.querySelector('#downarrow').addEventListener('click', (event) => {
 
 
 
+
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('#navbar');
     console.log("hello")
